@@ -1,0 +1,85 @@
+
+.App div {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Jost', sans-serif;
+  font-weight: 200;
+  font-size: 2.75rem;
+  letter-spacing: .15rem;
+}
+
+input {
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 3px;
+  font-family: 'Jost', sans-serif;
+  border: 1px solid gray;
+  border-radius: .25rem;
+  margin: 0 .5rem;
+}
+input[type='text'] {
+  width: 200px;
+}
+
+.name-tag {
+  background-color: rgb(218, 61, 61);
+  border: .25px solid black;
+  font-family: 'Karla', sans-serif;
+  padding: 10px 0 20px;
+  border-radius: 20px;
+  width: 20rem;
+  margin: 20px 10px;
+  display: inline-block;
+  position: relative;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+
+.subtitle {
+  color: white;
+  margin: 0;
+}
+
+.name {
+  background-color: white;
+  margin: 10px 0;
+  font-size: 4rem;
+  height: 90px;
+}
+
+.name-tag__delete {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  width: 1.35rem;
+  height: 1.5rem;
+  position: absolute;
+  padding: 5px 8px 12px 8px;
+  top: 2px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.name-tag__delete:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
