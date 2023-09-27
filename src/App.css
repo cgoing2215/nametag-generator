@@ -43,7 +43,7 @@ input[type='text'] {
   font-family: 'Karla', sans-serif;
   padding: 10px 0 20px;
   border-radius: 20px;
-  width: 20rem;
+  width: auto;
   height: auto;
   margin: 20px 10px;
   display: inline-block;
@@ -64,8 +64,9 @@ input[type='text'] {
 .name {
   background-color: white;
   margin: 10px 0;
-  font-size: 4rem;
+  font-size: 3.5rem;
   height: 90px;
+  padding: 10px;
 }
 
 .name-tag__delete {
